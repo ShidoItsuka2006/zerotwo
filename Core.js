@@ -1351,7 +1351,7 @@ const ftroli = {
 
 
     const menulist = `
-    Konichiwa ${pushname} dear 👋. I am ${global.BotName}, a bot developed by: Kai to take your WhatsApp usage into next level.
+    Konichiwa ${pushname} dear 👋. I am ${global.BotName}, a bot developed by: Shido to take your WhatsApp usage into next level.
         
        「 System Info 」
     
@@ -1381,7 +1381,7 @@ const ftroli = {
     
     Type *-menu* or press any button below to start using *${global.BotName}*
     
-    ©️ *${global.BotName}* All Rights Reserved by: *Kai*
+    ©️ *${global.BotName}* All Rights Reserved by: *Shido*
     `
         const qtod = m.quoted? "true":"false"
         
@@ -1415,7 +1415,7 @@ for (let anju of xeonyaudio){
       reply (`Hello ${pushname}, I am ${BotName}. How can i help you?`);
     } 
 	
-	 if (smallinput=='Kai') {
+	 if (smallinput=='Shido') {
         reply (`*My Boss is lost in another Multiverse, I lost contact with him...*`)
     }
 	
@@ -1446,7 +1446,8 @@ for (let anju of xeonyaudio){
       reply (`Mention not ${pushname} 😇. I am a bot afterall.`);
     }
 	
-	
+    if (smallinput.includes('myre')|| smallinput.includes('myr')) {
+      reply (`Mention not ${pushname} 😡. Nee pooda myreeee.`);  
 	
 	
 	
@@ -1468,7 +1469,7 @@ switch(command) {
     buttons: buttons,
     headerType: 4,
     /*contextInfo:{externalAdReply:{
-    title:"Powered by Kai",
+    title:"Powered by Shido",
     body: " ", 
     thumbnail: fs.readFileSync("Assets/pic2.jpg"),
     mediaType:1,
@@ -4771,10 +4772,10 @@ case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
       
-const helpmenu = `Hemlo *${pushname}* Dear...!! ,
+const helpmenu = `Konnichiwa💚💚 *${pushname}* Senpai...!! ,
 
 │───────────────────────│
-┠⬡│▸ I am *A17*, a Bot Developed by *Kai*.
+    I am *Zero TWO*, a Bot Developed by *Shido*.
 │───────────────────────│
 │╭────────────────···▸
 ┠─────═[ *TODAY* ]═────
@@ -4787,12 +4788,12 @@ const helpmenu = `Hemlo *${pushname}* Dear...!! ,
 ┠───═[ *BOT INFO* ]═──▸
 │╭────────────────···▸
 ┴│▸ 
-⬡│▸ *Bot usr name :* ${pushname} 
-⬡│▸ *My prefix is :*  ${prefix}
-⬡│▸ *Owner name :* ${global.OwnerName} 
-⬡│▸ *Bot speed :* ${latensie.toFixed(4)} ms 
-⬡│▸ *Bot runtime :* ${runtime(process.uptime())} 
-⬡│▸ *Platform :* Linux 
+   *Bot usr name :* ${pushname} 
+   *My prefix is :*  ${prefix}
+   *Owner name :* ${global.OwnerName} 
+    *Bot speed :* ${latensie.toFixed(4)} ms 
+   *Bot runtime :* ${runtime(process.uptime())} 
+    *Platform :* Linux 
 ┬│▸
 │╰────────────────···▸
 ┠⬡│▸ Here's the list of my Commands.
@@ -4801,156 +4802,156 @@ const helpmenu = `Hemlo *${pushname}* Dear...!! ,
 ┠─━━〈 ⚙️ *Core* ⚙️ 〉━━
 │╭────────────────···▸
 ┴│▸ 
-⬡│▸ speak, A17, stalk
-⬡│▸ profile, delete
-⬡│▸ deleteall, listgc, listpc
-⬡│▸ welcome, support
-⬡│▸ repo, script, help
+    speak, A17, stalk
+    profile, delete
+    deleteall, listgc, listpc
+    welcome, support
+    repo, script, help
 ┬│▸
 ╰────────────────···▸
 ┠━━〈 ❤️‍🔥 *Owner* ❤️‍🔥 〉━━
 │╭───────────────···▸
 ┴│▸
-⬡│▸ self, public,join,
-⬡│▸ bangroup, ban, block, 
-⬡│▸ unblock, broadcast, bye
+    self, public,join,
+    bangroup, ban, block, 
+    unblock, broadcast, bye
 ┬│▸
 ╰────────────────···▸
 ┠━━〈 ⭕ *Group* ⭕ 〉━━
 │╭───────────────···▸
 ┴│▸
-⬡│▸ add, remove, tagall
-⬡│▸ promote, demote, revoke
-⬡│▸ hidetag, groupsetting 
-⬡│▸ grouplink, setgcpp
-⬡│▸ setname, setdesc
-⬡│▸ group, nsfw, nsnfwmenu
+    add, remove, tagall
+    promote, demote, revoke
+    hidetag, groupsetting 
+    grouplink, setgcpp
+    setname, setdesc
+    group, nsfw, nsnfwmenu
 ┬│▸
 ╰────────────────···▸
 ┠━━〈 ❗ *Anti Link ❗* 〉━━
 │╭───────────────···▸
 ┴│▸
-⬡│▸ antilinkgc, antilinktg
-⬡│▸ antilinktt, antilinkytch
-⬡│▸ antilinkytvid, antilinkig
-⬡│▸ antilinkfb, antilinktwit
-⬡│▸ antilinkall, antiwame
+    antilinkgc, antilinktg
+    antilinktt, antilinkytch
+    antilinkytvid, antilinkig
+    antilinkfb, antilinktwit
+    antilinkall, antiwame
 ┬│▸
 ╰────────────────···▸
 ┠━━〈 🔍 *Search* 🔎 〉━━
 │╭───────────────···▸
 ┴│▸
-⬡│▸ play, ytmp3, ytmp4 
-⬡│▸ yts, lyrics, movie
-⬡│▸ google, gimage, pinterest
-⬡│▸ image, wallpaper
-⬡│▸ searchgc, happymod
-⬡│▸ wikimedia, ringtone
-⬡│▸ anime, animestory
-⬡│▸ manga, ringtone
+    play, ytmp3, ytmp4 
+    yts, lyrics, movie
+    google, gimage, pinterest
+    image, wallpaper
+    searchgc, happymod
+    wikimedia, ringtone
+    anime, animestory
+    manga, ringtone
 ┬│▸
 ╰────────────────···▸
 ┠━━〈 🛠️ *Convert* 🛠️ 〉━━
 │╭───────────────···▸
 ┴│▸
-⬡│▸ sticker, toimg, tovideo
-⬡│▸ togif, steal, stickermeme
-⬡│▸ emojimix, tourl, tomp3, toaudio
+    sticker, toimg, tovideo
+    togif, steal, stickermeme
+    emojimix, tourl, tomp3, toaudio
 ┬│▸
 ╰────────────────···▸
 ┠━━〈 🎼 *Audio* 🎼 〉━━
 │╭───────────────···▸
 ┴│▸ 
-⬡│▸ bass, tempo, blown,
-⬡│▸ robot, slow, squirrel
-⬡│▸ deep, earrape, fast,
-⬡│▸ fat, nightcore, reverse,
+    bass, tempo, blown,
+    robot, slow, squirrel
+    deep, earrape, fast,
+    fat, nightcore, reverse,
 ┬│▸
 ╰────────────────···▸
 ┠━━〈 📍 *Reactions* 📍 〉━━
 │╭───────────────···▸
 ┴│▸  
-⬡│▸ cuddle, hug, kiss, 
-⬡│▸ bonk, cry, bully,
-⬡│▸ slap, kill, happy,
-⬡│▸ lick, pat, smug,
-⬡│▸ nom, glomp, bite,
-⬡│▸ yeet, blush, smile,
-⬡│▸ wave, highfive, handhold,
-⬡│▸ wink, poke, dance, cringe
+    cuddle, hug, kiss, 
+    bonk, cry, bully,
+    slap, kill, happy,
+    lick, pat, smug,
+    nom, glomp, bite,
+    yeet, blush, smile,
+    wave, highfive, handhold,
+    wink, poke, dance, cringe
 ┬│▸
 ╰────────────────···▸
 ┠━━〈 🌌 *Downloader* 🌌 〉━━
 │╭───────────────···▸
 ┴│▸
-⬡│▸ ytvideo, mediafire, instagram,
-⬡│▸ igtv, facebook, fbmp3,
-⬡│▸ twitter, twittermp3,
-⬡│▸ tiktok, tiktokaudio
-⬡│▸ tiktoknowm, mediafire  
+    ytvideo, mediafire, instagram,
+    igtv, facebook, fbmp3,
+    twitter, twittermp3,
+    tiktok, tiktokaudio
+    tiktoknowm, mediafire  
 ┬│▸
 ╰────────────────···▸
 ┠━━〈 🎐 *Fun* 🎐 〉━━
 │╭───────────────···▸
 ┴│▸
-⬡│▸ reaction, truth, dare
-⬡│▸ couple, soulmate, handsomecheck
-⬡│▸ beautifulcheck, awesomecheck
-⬡│▸ greatcheck, gaycheck, cutecheck
-⬡│▸ uglycheck, charactercheck
-⬡│▸ lesbiancheck, hornycheck,
-⬡│▸ prettycheck, lovelycheck,
+    reaction, truth, dare
+    couple, soulmate, handsomecheck
+    beautifulcheck, awesomecheck
+    greatcheck, gaycheck, cutecheck
+    uglycheck, charactercheck
+    lesbiancheck, hornycheck,
+    prettycheck, lovelycheck,
 ┬│▸
 ╰────────────────···▸
 ┠━━〈 🈴 *Weeb* 🈴 〉━━
 │╭───────────────···▸
 ┴│▸
-⬡│▸ crosplay, waifu, loli,
-⬡│▸ tickle, wallpaper, coffee,
-⬡│▸ neko, ppcouple, feed,
-⬡│▸ foxgirl, feed, meow,
-⬡│▸ animenom, waifu3, neko2,
-⬡│▸ feed, meow, tickle, migumin
-⬡│▸ awoo, animewallpaper2
-⬡│▸ anime, manga
+    crosplay, waifu, loli,
+    tickle, wallpaper, coffee,
+    neko, ppcouple, feed,
+    foxgirl, feed, meow,
+    animenom, waifu3, neko2,
+    feed, meow, tickle, migumin
+    awoo, animewallpaper2
+    anime, manga
 ┬│▸
 ╰────────────────···▸
 ┠━━〈 ♨️ *Informative* ♨️ 〉━━
 │╭───────────────···▸
 ┴│▸
-⬡│▸ animequote, quote, weather
-⬡│▸ covid, earthquake, wiki
+    animequote, quote, weather
+    covid, earthquake, wiki
 ┬│▸
 ╰────────────────···▸
 ━━〈 🪁 *Essentials* 🪁 〉━━
 │╭───────────────···▸
 ┴│▸
-⬡│▸ qr, say, translate, 
-⬡│▸ fliptext, toletter
+    qr, say, translate, 
+    fliptext, toletter
 ┬│▸
 ╰────────────────···▸
 ┠━━〈 🎗 *Others* 🎗 〉━━
 │╭───────────────···▸
 ┴│▸
-⬡│▸ stickermeme, quotes, darkjoke
+    stickermeme, quotes, darkjoke
 ┬│▸
 ╰────────────────···▸
 ┠━━〈 ⚠️ *NSFW* ⚠️ 〉━━
 │╭───────────────···▸
 ┴│▸
-⬡│▸ 🍁 Type " *${prefix}nsfw* " then enable NSFW (Admin only!) 
-⬡│▸
-⬡│▸ 🍁 Then type " *${prefix}nsfwmenu* " for all NSFW commands.
-⬡│▸
-⬡│▸
+    🍁 Type " *${prefix}nsfw* " then enable NSFW (Admin only!) 
+  
+    🍁 Then type " *${prefix}nsfwmenu* " for all NSFW commands.
+
+
 ⬡│▸ 『  *${global.BotName}*  』
-⬡│▸    Developed By: *Kai*
-⬡│▸
+⬡│▸    Developed By: *Shido*
+
 ⬡│▸ 🌹 To use any of these commands type 
 ⬡│▸ " *${prefix}<Command name>* ".
-⬡│▸
+
 ⬡│▸ 🌹 To get Support Group link type " *${prefix}support* ".
-⬡│▸
+
 ⬡│▸ 🌹 Type " *${prefix}help* " to get full command list.`
     
 
@@ -5001,7 +5002,7 @@ case 'A17': case '17':
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
 
-const txt = `Do you love A17? Then we are the same.`
+const txt = `Do you love Zero Two? Then we are the same.`
 const A17array= [
             "https://c.tenor.com/SOeIW-QVZvoAAAPo/scared-the-quintessential-quintuplets.mp4",
             "https://c.tenor.com/FDe7lTs0xvMAAAPo/A17-Bot-Bot-A17.mp4",
