@@ -4976,7 +4976,7 @@ case '':
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
 
-      A17pic ='https://wallpapercave.com/wp/wp10524580.jpg'
+      A17pic ='https://wallpapercave.com/w/uwp2159404'
     
         
  const needhelpmenu = `Do you need help ${pushname} Senpai? Type *${prefix}help* to get my full command list.`
