@@ -6,7 +6,7 @@
 <h1 align="center">Zero Two BoT (Beta)
 </h1>
 <p align="center"> 
-  Hello, I am "A17" a WhatsApp bot  and recode by Shido to do everything that is possible on WhatsApp based on WhatsApp Multi Device(MD) Support.
+  Hello, I am "Zero Two" a WhatsApp bot  and recode by Shido to do everything that is possible on WhatsApp based on WhatsApp Multi Device(MD) Support.
 
 <p align="center">
   <a href="https://github.com/Kai0071/A17/fork">
