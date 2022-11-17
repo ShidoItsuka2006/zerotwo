@@ -98,7 +98,7 @@ these 3 buildpacks one by one mentionned below.
 
 
 
-<h2 align="center"> ✧ Join My Whatsapp Group for Support ✧
+<h2 align="center"> ✧ Join  Whatsapp Group for Support ✧
 </h2>
 
 <h2 align="center">  <a href="https://chat.whatsapp.com/EsNqFrGKxGXFrdwgRaQl9q"><img src="https://img.shields.io/badge/Join Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
