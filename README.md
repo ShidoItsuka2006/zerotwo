@@ -1,12 +1,12 @@
 <p align="center">
    <a href="https://github.com/Kai0071">
-    <img src="https://media1.giphy.com/media/XqVUeEK5Lt3VOGEzJj/giphy.gif" width="610">
+    <img src="https://media.giphy.com/media/10YWqUivkQPeeJWD3u/giphy.gif" width="610">
      
 </p>
 <h1 align="center"> A17 BoT (Beta)
 </h1>
 <p align="center"> 
-  Hemlo, I am "A17" a WhatsApp bot create and recode by Kai to do everything that is possible on WhatsApp based on WhatsApp Multi Device(MD) Support.
+  Hello, I am "A17" a WhatsApp bot  and recode by Shido to do everything that is possible on WhatsApp based on WhatsApp Multi Device(MD) Support.
 
 <p align="center">
   <a href="https://github.com/Kai0071/A17/fork">
