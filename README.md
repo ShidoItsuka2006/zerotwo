@@ -3,7 +3,7 @@
     <img src="https://media.giphy.com/media/10YWqUivkQPeeJWD3u/giphy.gif" width="610">
      
 </p>
-<h1 align="center"> A17 BoT (Beta)
+<h1 align="center">Zero Two BoT (Beta)
 </h1>
 <p align="center"> 
   Hello, I am "A17" a WhatsApp bot  and recode by Shido to do everything that is possible on WhatsApp based on WhatsApp Multi Device(MD) Support.
