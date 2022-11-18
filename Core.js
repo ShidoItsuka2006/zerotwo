@@ -5163,7 +5163,7 @@ A17.copyNForward(m.chat, msgs[budy.toLowerCase()], true)
 }
 }
 catch (err) {
-A17.sendMessage(`${ownertag}@s.whatsapp.net`, util.format(err), {quoted:m})
+await A17.sendMessage(`${ownertag}@s.whatsapp.net`, util.format(err), {quoted:m})
 console.log(err)
 }
 }
