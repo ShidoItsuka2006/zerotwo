@@ -4802,7 +4802,7 @@ const helpmenu = `Konnichiwa💚💚 *${pushname}* Senpai...!! ,
 ┠─━━〈 ⚙️ *Core* ⚙️ 〉━━
 │╭────────────────···▸
 ┴│▸ 
-    speak, A17, stalk
+    speak, ZeroTwo, stalk
     profile, delete
     deleteall, listgc, listpc
     welcome, support
@@ -4997,7 +4997,7 @@ break
 
 
 
-case 'A17': case '17': 
+case 'ZeroTwo': case 'Darling': 
 		
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
