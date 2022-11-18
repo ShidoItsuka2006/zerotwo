@@ -7,14 +7,14 @@ global.autoReadAll = false
 global.antitags = true
 
 
-global.Owner = ['916297175943']
-global.OwnerNumber = ['916297175943']
+global.Owner = ['918590408263']
+global.OwnerNumber = ['918590408263']
 global.ownertag = ['916297175943']
-global.BotName = "A17"
-global.packname = "A17 bot"
-global.author = "By: Kai"
-global.OwnerName = "Kai"
-global.BotSourceCode = "https://github.com/Kai0071/A17"
+global.BotName = "ZeroTwo"
+global.packname = "ZeroTwo bot"
+global.author = "By: Shido"
+global.OwnerName = "Shido"
+global.BotSourceCode = "https://github.com/ShidoItsuka2006/zerotwo"
 global.SupportGroupLink = "https://chat.whatsapp.com/EsNqFrGKxGXFrdwgRaQl9q"
 global.sessionName = "session"
 
@@ -23,7 +23,7 @@ global.sessionName = "session"
 global.prefa = ['-'] 
 
 
-global.location = "West Bengal, India"
+global.location = "Kerala, India"
 global.reactmoji = "❤️"
 global.themeemoji = "💖"
 global.vidmenu = { url: 'https://media.tenor.com/Jdu0Ov8X2sIAAAAC/A17-Bot.mp4' }
@@ -59,18 +59,18 @@ global.ntilink = []
 
 global.mess = {
     jobdone: 'Job done...',
-    useradmin: 'Sorry, only *Group Admins* can use this command *Dear*!',
+    useradmin: 'Sorry, only *Group Admins* can use this command *Senpai*!',
     botadmin: 'Sorry, i cant execute this command without being an *Admin* of this group.',
-    botowner: 'Only my *Owner* can use this command, Yeah!',
+    botowner: 'Only my *Owner* can use this command, 😹!',
     grouponly: 'This command is only made for *Groups*, Baka!',
     privateonly: 'This command is only made for *Private Chat*, Okey ?!',
     botonly: 'Only the *Bot itself* can use this command!',
-    waiting: ' Ruko Zara...',
+    waiting: ' Chotto matte/Please wait/Onnu wait chiyyo...',
     nolink: 'Please provide me *link*, Uff!',
     error: 'An error occurd!',
     banned: 'You are *Banned* fron using commands!, Haha',
     bangc: 'This Group is *Banned* from using Commands!',
-    nonsfw: 'Dont be a pervert  Uff! This is not a NSFW enabled group!, Uff!,'
+    nonsfw: 'Dont be a pervert Baka! This is not a NSFW enabled group!, Uff!,'
     
 }
 
