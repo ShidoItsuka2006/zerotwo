@@ -31,10 +31,10 @@ global.websitex = "https://github.com/ShidoItsuka2006"
 global.lolhuman = "KaysaS"
 
 
-global.BotLogo = fs.readFileSync("./Assets/pic1.jpg")
-global.Thumb = fs.readFileSync("./Assets/pic9.jpg")
-global.Thumb1 = fs.readFileSync("./Assets/pic5.jpg")
-global.ErrorPic = fs.readFileSync("./Assets/pic7.jpg")
+global.BotLogo = fs.readFileSync("./Assets/Zerotwo smiling.jpg")
+global.Thumb = fs.readFileSync("./Assets/Zerotwo happy.jpg")
+global.Thumb1 = fs.readFileSync("./Assets/Zerotwo satisfied.jpg")
+global.ErrorPic = fs.readFileSync("./Assets/Zerotwo angry.jpg")
 
 
 global.ntilinkytvid = []
