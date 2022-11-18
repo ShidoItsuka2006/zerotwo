@@ -5161,7 +5161,8 @@ if (!(budy.toLowerCase() in msgs)) return
 A17.copyNForward(m.chat, msgs[budy.toLowerCase()], true)
 }
 }
-}catch (err) {
+}
+catch (err) {
 A17.sendMessage(`${ownertag}@s.whatsapp.net`, util.format(err), {quoted:m})
 console.log(err)
 }
