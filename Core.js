@@ -1446,12 +1446,12 @@ for (let anju of xeonyaudio){
       reply (`Mention not ${pushname} 😇. I am a ZeroTwo afterall.`);
     }
     if (smallinput.includes('Shido')|| smallinput.includes('shido')){
-      reply (`shido senpai should be busy with his studies right now`);
+      reply (`*shido senpai should be busy with his studies right now*`);
     }
     if (smallinput.includes('myr')) {
       reply (`enthinado cheetha vilikkunnate...?🤨`);
     }
-    if(smallinput.includes('yo')|| smallinput.includes('Yo')){
+    if(smallinput==('yo'){
       reply (`*Yo*`);
     }
     if(smallinput.includes('how are you zerotwo')|| smallinput== ('are you fine zerotwo')){
