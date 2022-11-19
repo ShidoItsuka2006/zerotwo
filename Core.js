@@ -1351,7 +1351,7 @@ const ftroli = {
 
 
     const menulist = `
-    Konichiwa ${pushname} dear 👋. I am ${global.BotName}, a bot developed by: Shido to take your WhatsApp usage into next level.
+    Konichiwa ${pushname} dear 👋. I am ${global.BotName}, a bot by: Shido to take your WhatsApp usage into next level.
         
        「 System Info 」
     
@@ -1415,7 +1415,7 @@ for (let anju of xeonyaudio){
       reply (`Hello ${pushname}, I am ${BotName}. How can i help you?`);
     } 
 	
-	 if (smallinput=='Shido') {
+	 if (smallinput== 'Shido') {
         reply (`*My Boss is lost in another Multiverse, I lost contact with him...*`)
     }
 	
@@ -1444,6 +1444,9 @@ for (let anju of xeonyaudio){
 
     if (smallinput.includes('arigato')|| smallinput.includes('arigatou') || smallinput.includes('thank')) {
       reply (`Mention not ${pushname} 😇. I am a ZeroTwo afterall.`);
+    }
+    if (smallinput.includes('Shido')|| smallinput.includes('shido')){
+      reply (`shido senpai should be busy with his studies right now`);
     }
 	
     
