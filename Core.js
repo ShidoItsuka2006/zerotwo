@@ -1415,7 +1415,7 @@ for (let anju of xeonyaudio){
       reply (`Hello ${pushname}, I am ${BotName}. How can i help you?`);
     } 
 	
-	 if (smallinput=='shido') {
+	 if (smallinput=='Shido') {
         reply (`*My Boss is lost in another Multiverse, I lost contact with him...*`)
     }
 	
@@ -1443,7 +1443,7 @@ for (let anju of xeonyaudio){
     }
 
     if (smallinput.includes('arigato')|| smallinput.includes('arigatou') || smallinput.includes('thank')) {
-      reply (`Mention not ${pushname} 😇. I am a bot afterall.`);
+      reply (`Mention not ${pushname} 😇. I am a ZeroTwo afterall.`);
     }
 	
     
