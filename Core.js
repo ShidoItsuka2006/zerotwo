@@ -1452,7 +1452,7 @@ for (let anju of xeonyaudio){
       reply (`enthinado cheetha vilikkunnate...?🤨`);
     }
     if(smallinput==('yo'){
-      reply (`*Yo*`);
+      reply (`*Yo*`)
     }
     if(smallinput.includes('how are you zerotwo')|| smallinput== ('are you fine zerotwo')){
       reply (`yes,I am fine...`);
