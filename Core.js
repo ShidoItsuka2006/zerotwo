@@ -1446,9 +1446,7 @@ for (let anju of xeonyaudio){
       reply (`Mention not ${pushname} 😇. I am a bot afterall.`);
     }
 	
-    if (smallinput.includes('myre')|| smallinput.includes('myr')) {
-      reply (`Mention not ${pushname} 😡. Nee pooda myreeee.`);  
-	
+    
 	
 	
 
