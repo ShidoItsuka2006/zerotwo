@@ -1453,6 +1453,7 @@ for (let anju of xeonyaudio){
     
     
       
+
 switch(command) {
 	
     case 'sc': case 'script': case 'sourcecode': {
