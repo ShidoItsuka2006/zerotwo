@@ -5153,7 +5153,21 @@ if (stdout) return replay(stdout)
 }
 
 
-
+if (isCmd && budy.toLowerCase() != undefined) {
+if (m.chat.endsWith('broadcast')) return
+if (m.isBaileys) return
+let msgs = global.db.database
+if (!(budy.toLowerCase() in msgs)) return
+A17.copyNForward(m.chat, msgs[budy.toLowerCase()], true)
+}
+}
+}catch (err) {
+A17.sendMessage(`${ownertag}@s.whatsapp.net`, util.format(err), {quoted:m})
+console.log(err)
+}
+}
+	
+	
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
 fs.unwatchFile(file)
