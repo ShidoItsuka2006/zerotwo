@@ -1454,7 +1454,7 @@ for (let anju of xeonyaudio){
     if(smallinput.includes('yo')|| smallinput.includes('Yo')){
       reply (`*Yo*`);
     }
-    if(smallinput== 'how are you zerotwo')|| (smallinput== 'are you fine zerotwo'){
+    if(smallinput.includes('how are you zerotwo')|| smallinput== ('are you fine zerotwo')){
       reply (`yes,I am fine...`);
     }
 	
