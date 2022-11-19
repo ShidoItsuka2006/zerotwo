@@ -1450,9 +1450,10 @@ for (let anju of xeonyaudio){
     }
     if (smallinput.includes('myr')) {
       reply (`enthinado cheetha vilikkunnate...?🤨`);
-    
+    }
     
       
+
 
 switch(command) {
 	
