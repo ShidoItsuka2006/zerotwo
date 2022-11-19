@@ -160,17 +160,17 @@ ${metadata.desc}
     let buttonMessage = {
     image: await getBuffer(ppgroup),
     mentions: [num],
-    caption: A17text,
+    caption: ZeroTwotext,
     footer: `${global.BotName}`,
     headerType: 4,
     }
 A17.sendMessage(anu.id, buttonMessage)
                 } else if (anu.action == 'remove') {
                 	let WAuserName = num
-                    A17text = `
-Okay Bye 👋, @${WAuserName.split("@")[0]},
+                    ZeroTwotext = `
+ Bye bye 👋, @${WAuserName.split("@")[0]},
 
-I hope you will come back soon, but You will be missed!
+I hope you will come back soon, but we are not going to miss you though..
 `
 
     let buttonMessage = {
