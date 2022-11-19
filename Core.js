@@ -1451,6 +1451,9 @@ for (let anju of xeonyaudio){
     if (smallinput.includes('myr')) {
       reply (`enthinado cheetha vilikkunnate...?🤨`);
     }
+    if (smallinput.includes('malayali')){
+      reply (`*Ooh enthre coincidence, enta owner um malayali aanu*😇`);
+    }
     
       
 
