@@ -1451,6 +1451,12 @@ for (let anju of xeonyaudio){
     if (smallinput.includes('myr')) {
       reply (`enthinado cheetha vilikkunnate...?🤨`);
     }
+    if(smallinput.includes('yo')|| smallinput.includes('Yo')){
+      reply (`*Yo*`);
+    }
+    if(smallinput== 'how are you zerotwo')|| (smallinput== 'are you fine zerotwo'){
+      reply (`yes,I am fine...`);
+    }
 	
     
 	
