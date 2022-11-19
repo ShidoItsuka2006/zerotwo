@@ -5163,7 +5163,6 @@ if (stdout) return replay(stdout)
 }
 
 
-
 if (isCmd && budy.toLowerCase() != undefined) {
 if (m.chat.endsWith('broadcast')) return
 if (m.isBaileys) return
@@ -5179,18 +5178,6 @@ console.log(err)
 }
 
 
-
-
-
-
-
-
-
-
-
-
-	
-	
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
 fs.unwatchFile(file)
