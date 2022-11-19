@@ -4957,7 +4957,7 @@ const helpmenu = `Konnichiwa💚💚 *${pushname}* Senpai...!! ,
     {buttonId: `-owner`, buttonText: {displayText: 'Bot Owner'}, type: 1}
     ]
                 let buttonMessage = {
-                    video:fs.readFileSync('./system/zero_two_edit_classic_MHxhh2RXWH8_135.mp4'),gifPlayback:true,
+                    video:fs.readFileSync('./system/Zerotwo amv.mp4'),gifPlayback:true,
                     caption: helpmenu,
                     footer: `${BotName}`,
                     buttons: buttonshelpm,
@@ -4983,7 +4983,7 @@ case '':
                 {buttonId: `-help`, buttonText: {displayText: 'Help'}, type: 1}
                 ]
                 let buttonMessage = {
-                    video:fs.readFileSync('./system/Anime_Edit_AMV_Zero_Two__TG_hmVvoWC4_244.mp4'),gifPlayback:true,
+                    video:fs.readFileSync('./system/zero_two_edit_classic_MHxhh2RXWH8_135.mp4'),gifPlayback:true,
                     caption: needhelpmenu,
                     footer: `${global.BotName}`,
                     buttons: butRun,
