@@ -18,7 +18,7 @@ const { color } = require('./lib/color')
 const store = makeInMemoryStore({ logger: pino().child({ level: 'silent', stream: 'store' }) })
 
 async function startA17() {
-console.log(color(figlet.textSync('A17 Bot', {
+console.log(color(figlet.textSync('ZeroTwo Bot', {
 		font: 'Pagga',
 		horizontalLayout: 'default',
 		vertivalLayout: 'default',
@@ -26,8 +26,8 @@ console.log(color(figlet.textSync('A17 Bot', {
 		whitespaceBreak: true
         }), 'yellow'))
 
-console.log(color('\nHello, I am Kai, the main Developer of this bot.\n\nThanks for using: A17 Bot','aqua'))
-console.log(color('\nYou can follow me on GitHub: Kai0071','aqua'))
+console.log(color('\nHello, I am Shido, the  re creator of this bot.\n\nThanks for using: ZeroTwo Bot','aqua'))
+console.log(color('\nYou can follow me on GitHub: ShidoItsuka2006','aqua'))
 
     let { version, isLatest } = await fetchLatestBaileysVersion()
     const A17 = A17Connect({
@@ -151,7 +151,7 @@ A17.ev.on('group-participants.update', async (anu) => {
                 A17text = `
 Hello @${WAuserName.split("@")[0]},
 
-I am *A17 Bot*, Welcome to ${metadata.subject}.
+I am *ZeroTwo*, Welcome to ${metadata.subject}.
 
 *Group Description:*
 ${metadata.desc}
