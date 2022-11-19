@@ -1415,7 +1415,7 @@ for (let anju of xeonyaudio){
       reply (`Hello ${pushname}, I am ${BotName}. How can i help you?`);
     } 
 	
-	 if (smallinput=='Shido') {
+	 if (smallinput=='shido') {
         reply (`*My Boss is lost in another Multiverse, I lost contact with him...*`)
     }
 	
