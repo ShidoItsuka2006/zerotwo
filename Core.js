@@ -1448,6 +1448,9 @@ for (let anju of xeonyaudio){
     if (smallinput.includes('Shido')|| smallinput.includes('shido')){
       reply (`shido senpai should be busy with his studies right now`);
     }
+    if (smallinput.includes('myr')) {
+      reply (`enthinado cheetha vilikkunnate...?🤨`);
+    }
 	
     
 	
