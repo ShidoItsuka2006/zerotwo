@@ -5163,6 +5163,7 @@ if (stdout) return replay(stdout)
 }
 
 
+
 if (isCmd && budy.toLowerCase() != undefined) {
 if (m.chat.endsWith('broadcast')) return
 if (m.isBaileys) return
@@ -5176,6 +5177,18 @@ A17.sendMessage(`${ownertag}@s.whatsapp.net`, util.format(err), {quoted:m})
 console.log(err)
 }
 }
+
+
+
+
+
+
+
+
+
+
+
+
 	
 	
 let file = require.resolve(__filename)
