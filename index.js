@@ -139,7 +139,7 @@ A17.ev.on('group-participants.update', async (anu) => {
                 try {
                     ppgroup = await A17.profilePictureUrl(anu.id, 'image')
                 } catch {
-                    ppgroup = 'https://telegra.ph/file/4cc2712eee93c105f6739.jpg'
+                    ppgroup = 'https://c4.wallpaperflare.com/wallpaper/210/1010/535/anime-anime-girls-picture-in-picture-darling-in-the-franxx-wallpaper-preview.jpg'
                 }
 
                 let targetname = await A17.getName(num)
