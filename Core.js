@@ -4959,6 +4959,7 @@ const helpmenu = `Konnichiwa💚💚 *${pushname}* Senpai...!! ,
 ⬡│▸ 🌹 To get Support Group link type " *${prefix}support* ".
 
 ⬡│▸ 🌹 Type " *${prefix}help* " to get full command list.`
+     `support this channel https://youtube.com/@marvelmaniac1213`
     
 
  let buttonshelpm = [
