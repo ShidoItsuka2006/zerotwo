@@ -18,7 +18,7 @@
 
  
   <p align="CENTER">
-  <a href="https://github.com/Kai0071"><img title="Support" src="https://img.shields.io/badge/Maintain-Yes-cyan.svg?style=for-the-badge&logo=xcode" /></a>
+  <a href="https://github.com/Kai0071"><img title="Support" src="https://img.shields.io/badge/Maintain-Sometimes🥲-cyan.svg?style=for-the-badge&logo=xcode" /></a>
 </p>
     
 
