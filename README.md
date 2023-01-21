@@ -25,7 +25,7 @@
      
   
 <p align="CENTER">
-  <a href="https://github.com/Kai0071"><img title="Support" src="https://img.shields.io/badge/next%20Update-Undefined!-green.svg?style=for-the-badge&logo=xcode" /></a>
+  <a href="https://github.com/Kai0071"><img title="Support" src="https://img.shields.io/badge/next%20Update-Never🥲!-green.svg?style=for-the-badge&logo=xcode" /></a>
 </p>
       
  
