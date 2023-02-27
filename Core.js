@@ -1449,10 +1449,10 @@ for (let anju of xeonyaudio){
       reply (`*shido senpai should be busy with his studies right now*`);
     }
     if (smallinput.includes('myr')) {
-      reply (`enthinado cheetha vilikkunnate...?🤨 Pooda myre🤡`);
+      reply (`enthinado cheetha vilikkunnate ${pushname}...?🤨 Pooda myre🤡`);
     }
     if (smallinput.includes('malayali')){
-      reply (`*Ooh enthre coincidence, enta owner um malayali aanu*😇`);
+      reply (`*Ooh enthre coincidence, enta ${owner} um malayali aanu*😇`);
     }
 	
     
