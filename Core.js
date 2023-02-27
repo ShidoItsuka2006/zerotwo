@@ -1452,7 +1452,7 @@ for (let anju of xeonyaudio){
       reply (`enthinado cheetha vilikkunnate ${pushname}...?🤨 Pooda myre🤡`);
     }
     if (smallinput.includes('malayali')){
-      reply (`*Ooh enthre coincidence, enta ${owner} um malayali aanu*😇`);
+      reply (`*Ooh enthre coincidence, enta owner um malayali aanu*😇`);
     }
 	
     
