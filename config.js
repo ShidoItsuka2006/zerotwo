@@ -14,8 +14,8 @@ global.BotName = "ZeroTwo"
 global.packname = "ZeroTwo bot"
 global.author = "By: Shido"
 global.OwnerName = "Shido"
-global.BotSourceCode = "https://github.com/ShidoItsuka2006/zerotwo"
-global.SupportGroupLink = "https://chat.whatsapp.com/EsNqFrGKxGXFrdwgRaQl9q"
+global.BotSourceCode = "https://github.com/ShidoItsuka2006/zerotwo!"
+global.SupportGroupLink = "https://chat.whatsapp.com/EsNqFrGKxGXFrdwgRaQl9q!"
 global.sessionName = "session"
 
 // Prefix //
