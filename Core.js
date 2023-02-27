@@ -4957,7 +4957,7 @@ const helpmenu = `Konnichiwa💚💚 *${pushname}* Senpai...!! ,
 ⬡│▸ 🌹 To use any of these commands type 
 ⬡│▸ " *${prefix}<Command name>* ".
 
-⬡│▸ 🌹 To get Support Group link type " *${prefix}support* ".
+
 
 ⬡│▸ 🌹 Type " *${prefix}help* " to get full command list.`
   
