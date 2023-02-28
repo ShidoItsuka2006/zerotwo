@@ -4812,8 +4812,8 @@ const helpmenu = `Konnichiwa💚💚 *${pushname}* Senpai...!! ,
     speak, ZeroTwo, stalk
     profile, delete
     deleteall, listgc, listpc
-    welcome, support
-    repo, script, help
+    welcome,help
+     
 ┬│▸
 ╰────────────────···▸
 ┠━━〈 ❤️‍🔥 *Owner* ❤️‍🔥 〉━━
@@ -5090,26 +5090,6 @@ case 'weather':
     break;
 
 
-    case 'qr': case 'qrcode':
-        if (isBan) return reply(mess.banned)	 			
-        if (isBanChat) return reply(mess.bangc)
-        if (!m.isGroup) return replay(mess.grouponly)
-    reply(`Running repl....Please wait until repl.it responds...`)						
-    var replqr =  await getBuffer(`https://miku-qr--fantox001.repl.co/`)
-                               var qrbutton = [
-            {buttonId: `-qr`, buttonText: {displayText: `Re-run Repl`}, type: 1}
-            ]
-          let bmffg = {
-           image: replqr,
-           caption:  `Scan the qr within 10-15 seconds...`,
-          footer: `${global.BotName}`,
-          buttons: qrbutton,
-          headerType: 4
-          }     
-                await A17.sendMessage(m.chat, bmffg,{ quoted:m }).catch(err => {
-                        return('Error!')
-                    })
-    break
 
 
 
