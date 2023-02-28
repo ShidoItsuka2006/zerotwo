@@ -2292,7 +2292,7 @@ await A17.sendMessage(m.chat, { delete: key })
  if (isBanChat) return reply(mess.bangc)
  
  if (!isBotAdmins) return replay(mess.botadmin)
- if (!isAdmins && !isCreator) return replay(mess.useradmin)
+ if (!isCreator) return replay(mess.useradmin)
  if (args[0] === "on") {
  if (AntiNsfw) return replay('Already activated')
  ntnsfw.push(from)
