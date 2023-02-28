@@ -2291,11 +2291,14 @@ await A17.sendMessage(m.chat, { delete: key })
 
 
    case 'nsfw': {
-    if (isBan) return reply(mess.banned)	 			
- if (isBanChat) return reply(mess.bangc)
+    if (isBan) return reply(mess.banned)
+	
+    if (isBanChat) return reply(mess.bangc)
+		if (!m.isGroup) return replay(mess.grouponly)
+
  
  if (!isBotAdmins) return replay(mess.botadmin)
- if (!isCreator) return replay(mess.useradmin)
+ if (!isAdmins && !isCreator) return replay(mess.useradmin)
  if (args[0] === "on") {
  if (AntiNsfw) return replay('Already activated')
  ntnsfw.push(from)
