@@ -1455,7 +1455,10 @@ for (let anju of xeonyaudio){
       reply (`*Ooh enthre coincidence, enta owner um malayali aanu*😇`);
     }
 	
-    
+    if (smallinput.includes('daijoubu')){
+	reply (`ok`);
+	}
+	
       
 
 
